@@ -1,0 +1,259 @@
+
+/*头部 begin*/
+
+.h_con {
+	height: 80px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #cecfcf;
+}
+
+.h_con .h_body {
+	height: 80px;
+}
+
+.h_con .h_body ul li {
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 20px;
+	color: #333;
+}
+
+.h_con .h_body .logo {
+	line-height: 80px;
+}
+
+.h_con .h_body .logo img {
+	width: 150px;
+}
+
+.h_con .h_body .active a {
+	color: #fe5341;
+}
+
+.h_con .h_body li a:hover {
+	color: #fe5341;
+}
+
+.h_con .h_body .link {
+	position: absolute;
+	right: 0;
+	height: 80px;
+	line-height: 80px;
+}
+
+.h_con .h_body .link a:first-child {
+	background: url(../img/icon/search.png) no-repeat;
+	width: 24px;
+	height: 26px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 12px;
+	transition: transform 0.3s;/*过渡*/
+}
+
+.h_con .h_body .link a:first-child:hover{
+	transform: scale(1.1);/*放大*/
+}
+
+.h_con .h_body .link a:nth-child(2),.h_con .h_body .link a:last-child {
+	border: 1px solid #fe5341;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+.h_con .h_body .link a:nth-child(2):hover,.h_con .h_body .link a:last-child:hover {
+	background: #fe5341;
+	color: #fff;
+}
+
+
+/*头部 end*/
+
+
+/*底部 begin*/
+
+.f_con {
+	width: 100%;
+	background-color: #505050;
+	color: #a3a3a3;
+}
+
+.f_con .f_body {}
+
+.f_con .f_body .qrcode {}
+
+.f_con .f_body .qrcode,
+.f_con .f_body ul {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.f_con .f_body ul {
+	margin-left: 20px;
+}
+
+.f_con .f_body ul li {
+	max-width: 180px;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.f_con .f_body ul li:first-child {
+	font-size: 18px;
+	color: #fff;
+}
+
+.f_con .f_body .c_right {
+	clear: both;
+	text-align: center;
+	padding: 50px 0 20px;
+	font-size: 12px;
+}
+
+
+/*底部 end*/
+
+
+/*
+ 发现酷玩
+ * */
+.kw_find{
+	width: 100%;
+	
+}
+.kw_body{
+	line-height: 2.7;
+}
+.kw_find .kw_body{
+	margin: 0 auto;
+	width: 1000px;
+}
+.kw_find .kw_body h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 40px;
+	padding: 50px 0 30px;
+}
+.kw_find .kw_body .kw_con ul,
+.kw_find .kw_body .kw_con_hot ul,
+.kw_find .kw_body .kw_con_kind ul,
+.kw_find .kw_body .kw_con_buy ul,
+.kw_find .kw_body .kw_con_tiyan ul,
+.kw_find .kw_body .use_bar ul{
+	text-align: center;
+
+}
+.kw_find .kw_body .kw_con ul li,
+.kw_find .kw_body .kw_con_hot ul li,
+.kw_find .kw_body .kw_con_kind ul li,
+.kw_find .kw_body .kw_con_buy ul li,
+.kw_find .kw_body .kw_con_tiyan ul li{
+	display: inline-block;
+	padding: 0 70px;
+	font-size: 20px;
+}
+.kw_find .kw_body .kw_con ul li a,
+.kw_find .kw_body .kw_con_hot ul li a,
+.kw_find .kw_body .kw_con_kind ul li a,
+.kw_find .kw_body .kw_con_buy ul li a,
+.kw_find .kw_body .kw_con_tiyan ul li a{
+	color: #CECFCF;
+}
+.kw_find .kw_body .kw_con .k_active a:first-child,
+.kw_find .kw_body .kw_con_kind .k_active a:last-child{
+	color: #F73809;
+}
+.kw_find .kw_body .kw_con_hot .k_active_hot a{
+	color: #F73809;
+}
+.kw_find .kw_body .kw_con ul li:first-child,
+.kw_find .kw_body .kw_con_hot ul li:nth-child(2),
+.kw_find .kw_body .kw_con_kind ul li:nth-child(3){
+	border-bottom: 4px solid #F73809;
+}
+
+
+.g_con{
+	    padding-top: 40px;
+}
+.g_con .g_body ul li{
+	margin-right: 26px;
+}
+
+.reg_con .reg_body dd{
+	padding: 0 13px 18px;
+}
+.reg_con .reg_body .list{
+	display: inline-block;
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 17px;
+}
+.reg_con .reg_body .list .info{
+	padding-top: 12px;
+	color: #a3a3a3;
+}
+
+.reg_con .reg_body dd:nth-child(3){
+	border-top: 1px dashed #e0e0e0;
+    padding-bottom: 35px;
+}
+/*
+ 发现酷玩
+ * */
+
+
+
+/*导购精选*/
+
+.kw_find .kw_body .kw_con_buy .k_active a:first-child,
+.kw_find .kw_body .kw_con_buy .k_active a:last-child{
+	color: #F73809;
+}
+
+.kw_find .kw_body .kw_con ul li:first-child,
+.kw_find .kw_body .kw_con_buy ul li:last-child{
+	border-bottom: 4px solid #F73809;
+}
+
+/*导购精选*/
+
+/*免费试用*/
+.kw_find .kw_body .use_bar ul li{
+	display: inline-block;
+	margin: 0 50px;
+}
+
+.kw_find .kw_body .use_bar{
+	height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    font-size: 20px;
+}
+.kw_find .kw_body .use_bar a{
+	color: #A3A3A3;
+}
+
+.kw_find .kw_body .use_bar .use_active a:first-child,
+.kw_find .kw_body .use_bar .use_active a:nth-child(2),
+.kw_find .kw_body .use_bar .use_active a:nth-child(3),
+.kw_find .kw_body .use_bar .use_active a:last-child{
+	color: #000;
+}
+
+.kw_find .kw_body .kw_con .k_active a:first-child,
+.kw_find .kw_body .kw_con_tiyan .k_active a:last-child{
+	color: #F73809;
+}
+.kw_find .kw_body .kw_con ul li:first-child,
+.kw_find .kw_body .kw_con_tiyan ul li:last-child{
+	border-bottom: 4px solid #F73809;
+}
+
+
+/*免费试用*/
